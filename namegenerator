@@ -297,6 +297,6 @@ declare -a secondname=(
 		# Ada Yonath - an Israeli crystallographer the first woman from the Middle East to win a Nobel prize in the sciences. https:#en.wikipedia.org/wiki/Ada_Yonath
 		"yonath");
 
-echo  ${firstname[$(( ( RANDOM % ${#firstname[@]} )  + 0 ))]^}" " ${firstname[$(( ( RANDOM % ${#secondname[@]} )  + 0 ))]^}
+echo  ${firstname[$(( ( RANDOM % ${#firstname[@]} )  + 0 ))]^}" " ${secondname[$(( ( RANDOM % ${#secondname[@]} )  + 0 ))]^}
 
 
